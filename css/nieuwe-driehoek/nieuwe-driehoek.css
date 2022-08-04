@@ -1,0 +1,53 @@
+﻿* {
+    font-family: 'Poppins', sans-serif;
+}
+.contact-btn:hover {
+    border: 1px solid #680000;
+    background: #680000;
+    transition: 1s;
+    color: #fff;
+}
+
+
+.contact-btn {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #680000;
+    border: 1px solid #680000;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+
+
+/*-------footer--------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer h4{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.icons .fa-brands {
+    color: #680000;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
